@@ -14,7 +14,7 @@ import com.springfirst.service.UserService;
 @RequestMapping("/user")
 public class UserController {
 	@Autowired
-	private UserService userService;
+	private UserService userService;   
 	@PostMapping("/register")
 	public String registerUser(@RequestBody RegisterModel registerModel) {
 		
